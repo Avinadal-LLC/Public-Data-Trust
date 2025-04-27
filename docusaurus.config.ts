@@ -6,20 +6,19 @@ import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
   title: 'Universe of Avilium',
-  tagline: 'Dinosaurs are cool',
+  tagline: 'A Science-Fantasy Community Project',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
   url: 'https://universeofavilium.com',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/Universe-of-Avilium/',
+  baseUrl: '/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'Avinadal-LLC', // Usually your GitHub org/user name.
   projectName: 'Universe-of-Avilium', // Usually your repo name.
-  deploymentBranch: 'gh-pages',
   trailingSlash: false,
 
   onBrokenLinks: 'throw',
