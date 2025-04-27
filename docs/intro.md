@@ -12,7 +12,7 @@ The Universe of Avilium, or UoA, is a fictional universe created and maintained 
 
 ## How to Participate
 
-In order to participate in content creation efforts and activities for UoA, you must join the [Avinadal Discord Server](https://discord.gg/avinadal) and complete the age verification process and prove you are 18 years of age or older. Once you are officially a member of the community and have verified that you are an adult, you can start by following the [Getting Started guide on this site](/getting-started).
+Unfortunately, at this time, Avilium is closed off to external collaboration, but if you'd like to stay informed with what is going on and help out in the future, you can join the [Avinadal Discord Server](https://discord.gg/avinadal) and completed the age verification process for the time being.
 
 ## How to Support
 
@@ -28,7 +28,3 @@ If you would like to support the creators involved with UoA directly, rather tha
 :::warning[Please Note]
     Please note that while age verification on the Discord server is not required to view the social media feed channels, all content created by Avinadal is meant for adult audiences only. If we have reason to believe you are a minor and have joined our server, you will be banned from the server without question. As such, if you are a minor with a desire to join the Avinadal community, please wait until you are old enough.
 :::
-
-## Getting Started
-
-Unfortunately, at this time, Avilium is closed off to external collaboration, but if you'd like to stay informed with what is going on and help out in the future, you can join the [Avinadal Discord Server](https://discord.gg/avinadal) and completed the age verification process for the time being.
