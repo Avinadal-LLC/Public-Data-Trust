@@ -81,6 +81,7 @@ const config: Config = {
           label: 'Documentation',
         },
         {to: '/blog', label: 'Blog', position: 'left'},        
+        {to: '/to-do', label: 'To-Do', position: 'left'},        
       ],
     },
     footer: {

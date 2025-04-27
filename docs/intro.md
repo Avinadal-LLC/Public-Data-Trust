@@ -28,3 +28,7 @@ If you would like to support the creators involved with UoA directly, rather tha
 :::warning[Please Note]
     Please note that while age verification on the Discord server is not required to view the social media feed channels, all content created by Avinadal is meant for adult audiences only. If we have reason to believe you are a minor and have joined our server, you will be banned from the server without question. As such, if you are a minor with a desire to join the Avinadal community, please wait until you are old enough.
 :::
+
+## Getting Started
+
+Unfortunately, at this time, Avilium is closed off to external collaboration, but if you'd like to stay informed with what is going on and help out in the future, you can join the [Avinadal Discord Server](https://discord.gg/avinadal) and completed the age verification process for the time being.
