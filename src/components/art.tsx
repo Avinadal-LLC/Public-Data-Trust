@@ -1,5 +1,3 @@
-import styles from 'styles.all.css';
-
 export default function CommissionedArt(params: { imageName: string, imageSrc: string, artistUrl: string, artistName: string }) {
     switch (params.artistName) {
         case "Ruri":
