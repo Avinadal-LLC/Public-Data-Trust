@@ -18,7 +18,7 @@ Unfortunately, at this time, Avilium is closed off to external collaboration, bu
 
 The Universe of Avilium is owned, maintained, and managed by Avinadal LLC. While we always encourage supporting the content creators directly, if you want to support Avinadal LLC, you can do so in the following ways:
 
-- [Universe of Avilium Patreon](https://www.patreon.com/Avilium) - Patreon allows you to support us by signing up for a monthly subscription. Depending on the subscription tier selected, you will also gain access to unique perks like early access to content, access to draft content, or even the opportunity to vote on the outcome of specific canon-impacting events.
+- [Avinadal Patreon](https://www.patreon.com/Avinadal) - Patreon allows you to support us by signing up for a monthly subscription. Depending on the subscription tier selected, you will also gain access to unique perks like early access to content, access to draft content, or even the opportunity to vote on the outcome of specific canon-impacting events. Please note that while Avinadal is mostly focused on the development of the Avilium Universe, there may be other unrelated content on the Avinadal Patren from time to time as well.
 - [Villanite's Twitch](https://www.twitch.tv/villanite) - Because Villanite, as an entity, is owned by Avinadal LLC, subscriptions made to Villanite's Twitch channel feed directly into the Avinadal budget, meaning that by supporting Villanite on Twitch, you are also supporting Avinadal.
 
 ### Supporting UoA Creators
