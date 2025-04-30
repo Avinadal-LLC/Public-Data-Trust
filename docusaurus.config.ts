@@ -77,6 +77,7 @@ const config: Config = {
           label: 'Documentation',
         },
         {to: '/blog', label: 'Blog', position: 'left'},        
+        {to: '/faq', label: 'FAQ', position: 'left'},        
         {to: '/to-do', label: 'To-Do', position: 'left'},        
       ],
     },
@@ -87,8 +88,16 @@ const config: Config = {
           title: 'Docs',
           items: [
             {
-              label: 'Tutorial',
+              label: 'Documenation Intro',
               to: '/docs/intro',
+            },
+            {
+              label: 'Bestiary',
+              to: '/docs/bestiary',
+            },
+            {
+              label: 'Magic System',
+              to: '/docs/magic',
             },
           ],
         },
@@ -111,6 +120,10 @@ const config: Config = {
             {
               label: 'Blog',
               to: '/blog',
+            },
+            {
+              label: 'FAQ',
+              to: '/faq',
             }
           ],
         },
