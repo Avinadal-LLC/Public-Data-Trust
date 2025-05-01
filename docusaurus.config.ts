@@ -97,7 +97,7 @@ const config: Config = {
             },
             {
               label: 'Magic System',
-              to: '/docs/magic',
+              to: '/docs/magic-system',
             },
           ],
         },
