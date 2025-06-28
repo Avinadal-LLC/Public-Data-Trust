@@ -10,7 +10,7 @@ const config: Config = {
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://universeofavilium.com',
+  url: 'https://publicdatatrust.com',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
@@ -60,7 +60,12 @@ const config: Config = {
 
   themeConfig: {
     // Replace with your project's social card
-    image: 'img/avilium-social-card.jpg',
+    colorMode: {
+      defaultMode: 'dark',
+      disableSwitch: false, // Disable the color mode switch
+      respectPrefersColorScheme: true, // Respect user's system preference
+    },
+    image: 'img/MetaImage.jpg',
     navbar: {
       title: 'Public Data Trust',
       logo: {
