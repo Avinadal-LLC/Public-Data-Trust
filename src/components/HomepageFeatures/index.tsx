@@ -11,32 +11,29 @@ type FeatureItem = {
 
 const FeatureList: FeatureItem[] = [
   {
-    title: 'Easy to Use',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    title: 'Currated by Dedicated Experts',
+    Svg: require('@site/static/img/Eye.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Everything found on this website has been carefully selected and reviewed by a team of experts to ensure that it is relevant and accurate.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    title: 'Provided Legally and Ethically',
+    Svg: require('@site/static/img/Shield.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        The PDT Foundation is committed to providing information that is not only accurate but also legally and ethically sourced. We adhere to the highest standards of data governance and compliance.
       </>
     ),
   },
   {
-    title: 'Powered by React',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    title: 'Non-Partisan and Non-Political',
+    Svg: require('@site/static/img/Compass.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        None of the content on this website is influenced by any political or partisan agenda. We are dedicated to providing unbiased information that serves the public interest.
       </>
     ),
   },

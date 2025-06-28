@@ -6,31 +6,73 @@
 
 /* You can override the default Infima variables here. */
 :root {
-  --ifm-color-primary: #2e8555;
-  --ifm-color-primary-dark: #29784c;
-  --ifm-color-primary-darker: #277148;
-  --ifm-color-primary-darkest: #205d3b;
-  --ifm-color-primary-light: #33925d;
-  --ifm-color-primary-lighter: #359962;
-  --ifm-color-primary-lightest: #3cad6e;
+  --ifm-color-primary: #1576BA;
+  --ifm-color-primary-dark: #14659f;
+  --ifm-color-primary-darker: #115586;
+  --ifm-color-primary-darkest: #0b395a;
+  --ifm-color-primary-light: #1781cd;
+  --ifm-color-primary-lighter: #1a92e8;
+  --ifm-color-primary-lightest: #1ca1ff;
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
 [data-theme='dark'] {
-  --ifm-color-primary: #25c2a0;
-  --ifm-color-primary-dark: #21af90;
-  --ifm-color-primary-darker: #1fa588;
-  --ifm-color-primary-darkest: #1a8870;
-  --ifm-color-primary-light: #29d5b0;
-  --ifm-color-primary-lighter: #32d8b4;
-  --ifm-color-primary-lightest: #4fddbf;
+  --ifm-color-primary: #1576BA;
+  --ifm-color-primary-dark: #14659f;
+  --ifm-color-primary-darker: #115586;
+  --ifm-color-primary-darkest: #0b395a;
+  --ifm-color-primary-light: #1781cd;
+  --ifm-color-primary-lighter: #1a92e8;
+  --ifm-color-primary-lightest: #1ca1ff;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
+
+*::selection{
+  background: var(--ifm-color-primary);
+  color: #fff;
+}
+
+[data-theme='dark'] .hero__title {
+  color: #fff;
+}
+
+.redacted {
+  background: black;
+  color: black;
+  border-radius: 2px;
+  padding: 0 .2em;
+  cursor:default;
+}
+
+.redacted::selection{
+  background: #1576BA;
+  color: #1576BA;
 }
 
 .image-caption {
   text-align: center;
   font-size: 90%;
   font-style: italic;
+}
+.footer {
+  background: #eee;
+  color: #111;
+  font-size: small;
+}
+[data-theme='dark'] .footer {
+  background: #222;
+  color: #ddd;
+}
+
+.real-footer {
+  color: #555;
+  display: block;
+  padding-top: 1em;
+  font-size: xx-small;
+}
+.real-footer a {
+  color: #555;
+  text-decoration: none;
 }

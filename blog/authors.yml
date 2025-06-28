@@ -1,9 +1,4 @@
-villanite:
-  name: Aries Villanite
-  title: Emperor of Avinadal
-  url: https://github.com/villanite
-  image_url: https://github.com/villanite.png
+genres:
+  name: General Research Department
+  description: The General Research Department (GenRes) is responsible for leading the curation and management of all content on the PDT archive. This includes ensuring that all information is accurate, relevant, and presented in a way that is accessible to the public. GenRes is also tasked with broad oversight over other departments within the PDT Foundation, ensuring that all content aligns with the foundation's mission and values.
   page: true
-  socials:
-    x: villanite
-    github: villanite

@@ -5,8 +5,8 @@ import type * as Preset from '@docusaurus/preset-classic';
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const config: Config = {
-  title: 'Universe of Avilium',
-  tagline: 'A Science-Fantasy Community Project',
+  title: 'Public Data Trust',
+  tagline: '',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -38,8 +38,7 @@ const config: Config = {
       {
         docs: {
           sidebarPath: './sidebars.ts',
-          editUrl:
-            'https://github.com/Avinadal-LLC/Universe-of-Avilium',
+          editUrl: undefined,
         },
         blog: {
           showReadingTime: true,
@@ -47,8 +46,7 @@ const config: Config = {
             type: ['rss', 'atom'],
             xslt: true,
           },
-          editUrl:
-            'https://github.com/Avinadal-LLC/Universe-of-Avilium',
+          editUrl:undefined,
           onInlineTags: 'warn',
           onInlineAuthors: 'warn',
           onUntruncatedBlogPosts: 'warn',
@@ -64,71 +62,24 @@ const config: Config = {
     // Replace with your project's social card
     image: 'img/avilium-social-card.jpg',
     navbar: {
-      title: 'Universe of Avilium',
+      title: 'Public Data Trust',
       logo: {
-        alt: 'My Site Logo',
-        src: 'img/Icon-Logo-White.png',
+        alt: 'Public Data Trust Logo',
+        src: 'img/PDT-Logo-Transparent.png',
       },
       items: [
         {
           type: 'docSidebar',
           sidebarId: 'documentationSidebar',
           position: 'left',
-          label: 'Documentation',
+          label: 'Database',
         },
-        {to: '/blog', label: 'Blog', position: 'left'},        
-        {to: '/faq', label: 'FAQ', position: 'left'},        
-        {to: '/to-do', label: 'To-Do', position: 'left'},        
+        {to: '/blog', label: 'News', position: 'left'},           
       ],
     },
     footer: {
-      style: 'dark',
-      links: [
-        {
-          title: 'Docs',
-          items: [
-            {
-              label: 'Documenation Intro',
-              to: '/docs/intro',
-            },
-            {
-              label: 'Bestiary',
-              to: '/docs/bestiary',
-            },
-            {
-              label: 'Magic System',
-              to: '/docs/magic-system',
-            },
-          ],
-        },
-        {
-          title: 'Community',
-          items: [
-            {
-              label: 'Patreon',
-              href: 'https://patreon.com/avinadal',
-            },
-            {
-              label: 'Discord',
-              href: 'https://discord.gg/avinadal',
-            },          
-          ],
-        },
-        {
-          title: 'More',
-          items: [
-            {
-              label: 'Blog',
-              to: '/blog',
-            },
-            {
-              label: 'FAQ',
-              to: '/faq',
-            }
-          ],
-        },
-      ],
-      copyright: `<p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><a property="dct:title" rel="cc:attributionURL" href="#">Universe of Avilium</a> by <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://avinadal.net" target="_blank">Avinadal LLC</a> is licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC BY-NC-SA 4.0<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/nc.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/sa.svg?ref=chooser-v1" alt=""></a></p>`,
+      style: 'dark',      
+      copyright: `<span class="pdt-footer">Information contained in this archive is property of the Hadieia Galactic Federation. Access is governed by Public Trust Dissemination Policy 4.0.</span><span class="real-footer" xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/">The <a property="dct:title" rel="cc:attributionURL" href="#">Public Data Trust</a> and all related content of this website is licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC BY-NC-SA 4.0</a> by <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://avinadal.net" target="_blank">Avinadal LLC</a> </span>`,
     },
     prism: {
       theme: prismThemes.github,
