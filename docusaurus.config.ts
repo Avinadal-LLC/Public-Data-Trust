@@ -37,7 +37,7 @@ const config: Config = {
       'classic',
       {
         docs: {
-          sidebarPath: './sidebars.ts',
+          sidebarPath: './sidebarDocs.ts',
           editUrl: undefined,
         },
         blog: {
@@ -58,13 +58,25 @@ const config: Config = {
     ],
   ],
 
+  plugins: [
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'reports', // unique id for this docs instance
+        path: 'reports',
+        routeBasePath: 'reports', // URL route
+        sidebarPath: require.resolve('./sidebarReports.ts'),
+      },
+    ],
+  ],
+
   themeConfig: {
     // Replace with your project's social card
     colorMode: {
       defaultMode: 'dark',
       disableSwitch: false, // Disable the color mode switch
       respectPrefersColorScheme: true, // Respect user's system preference
-    },
+    },   
     image: 'img/MetaImage.jpg',
     navbar: {
       title: 'Public Data Trust',
@@ -79,12 +91,14 @@ const config: Config = {
           position: 'left',
           label: 'Database',
         },
+        {to: '/reports/intro', label: 'Reports', position: 'left'},           
         {to: '/blog', label: 'News', position: 'left'},           
+        {to: '/contact', label: 'Contact', position: 'left'},           
       ],
     },
     footer: {
       style: 'dark',      
-      copyright: `<span class="pdt-footer">Information contained in this archive is property of the Hadieia Galactic Federation. Access is governed by Public Trust Dissemination Policy 4.0.</span><span class="real-footer" xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/">The <a property="dct:title" rel="cc:attributionURL" href="#">Public Data Trust</a> and all related content of this website is licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC BY-NC-SA 4.0</a> by <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://avinadal.net" target="_blank">Avinadal LLC</a> </span>`,
+      copyright: `<span class="pdt-footer">Information contained in this archive is property of the Hadieia Galactic Federation and PDT Foundation. Access is governed by Public Trust Dissemination Policy 4.0.</span><br/><span class="pdt-footer">This site uses cookies to tailor your experience. No personal data is tracked or shared. See our <a rel="privacy-policy" href="/privacy-policy" class="footer__link">Privacy Policy</a> for details.</span><span class="real-footer" xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/">The <a property="dct:title" rel="cc:attributionURL" href="#">Public Data Trust</a> and all related content of this website is licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC BY-NC-SA 4.0</a> by <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://avinadal.net" target="_blank">Avinadal LLC</a> </span>`,
     },
     prism: {
       theme: prismThemes.github,
