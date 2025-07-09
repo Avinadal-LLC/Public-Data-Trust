@@ -1,6 +1,6 @@
 import React from 'react';
 import Layout from '@theme/Layout';
-import ContactForm from '@site/src/components/ContactForm';
+import FakeContactForm from '@site/src/components/ContactForm';
 
 export default function ContactPage() {
   return (
@@ -10,7 +10,7 @@ export default function ContactPage() {
         <p>
           Have a question, suggestion, or concern? Use the form below to send a message to the PDT Foundation team.
         </p>
-        <ContactForm />
+        <FakeContactForm />
       </main>
     </Layout>
   );
