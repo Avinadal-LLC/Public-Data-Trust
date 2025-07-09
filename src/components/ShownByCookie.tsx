@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 
 export default function ShownByCookie({
   cookieName,
@@ -9,13 +9,15 @@ export default function ShownByCookie({
   cookieValue?: string;
   children: React.ReactNode;
 }) {
-  const found = document.cookie
-    .split("; ")
-    .find((row) => row.startsWith(cookieName + "="));
-  const value = found?.split("=")[1];
+ const [shouldRender, setShouldRender] = useState(false);
 
-  // If cookieValue is provided, check for exact match; otherwise, just check existence
-  const shouldRender = cookieValue ? value === cookieValue : !!value;
-
+  useEffect(() => {
+    const found = document.cookie
+      .split("; ")
+      .find((row) => row.startsWith(cookieName + "="));
+    const value = found?.split("=")[1];
+    setShouldRender(cookieValue ? value === cookieValue : !!value);
+  }, [cookieName, cookieValue]);
+  
   return shouldRender ? <>{children}</> : null;
 }
