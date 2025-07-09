@@ -131,3 +131,8 @@
   outline: 2px solid var(--ifm-color-primary);
   outline-offset: 2px;
 }
+.pdtThisPlaceSucks {
+  display: inline-block;
+  opacity: 0;
+  cursor: none;
+}

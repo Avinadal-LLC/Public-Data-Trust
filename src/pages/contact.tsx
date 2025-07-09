@@ -1,6 +1,6 @@
 import React from 'react';
 import Layout from '@theme/Layout';
-import ContactForm from '@site/src/components/contactform';
+import ContactForm from '@site/src/components/ContactForm';
 
 export default function ContactPage() {
   return (

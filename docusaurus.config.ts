@@ -92,8 +92,8 @@ const config: Config = {
           label: 'Database',
         },
         {to: '/reports/intro', label: 'Reports', position: 'left'},           
-        {to: '/blog', label: 'News', position: 'left'},           
         {to: '/contact', label: 'Contact', position: 'left'},           
+        {to: '/blog', label: 'News', position: 'left'},           
       ],
     },
     footer: {

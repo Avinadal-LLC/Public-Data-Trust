@@ -13,9 +13,9 @@ export default function PrivacyPolicy() {
         <p>
           This website does not collect personal information from visitors. We do not use analytics, advertising, or tracking cookies.
         </p>
-        <h2>Contact Form Cookie</h2>
+        <h2>User Experience Cookie</h2>
         <p>
-          If you use the contact form, a cookie will be set in your browser to remember that you have submitted the form. This cookie contains no personal data and is used only to prevent repeated submissions. It expires automatically after one year.
+          As you navigate through the site, cookies will be set in your browser to remember what functionality you've used and what pages you've been in. This information is used solely for your user experience. These cookies contains no personal data. They expire automatically.
         </p>
         <h2>Third-Party Services</h2>
         <p>
