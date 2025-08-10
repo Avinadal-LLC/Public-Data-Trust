@@ -18,7 +18,7 @@ const config: Config = {
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'Avinadal-LLC', // Usually your GitHub org/user name.
-  projectName: 'Universe-of-Avilium', // Usually your repo name.
+  projectName: 'Public-Data-Trust', // Usually your repo name.
   trailingSlash: false,
 
   onBrokenLinks: 'throw',
@@ -71,7 +71,6 @@ const config: Config = {
   ],
 
   themeConfig: {
-    // Replace with your project's social card
     colorMode: {
       defaultMode: 'dark',
       disableSwitch: false, // Disable the color mode switch
@@ -98,7 +97,7 @@ const config: Config = {
     },
     footer: {
       style: 'dark',      
-      copyright: `<span class="pdt-footer">Information contained in this archive is property of the Hadieia Galactic Federation and PDT Foundation. Access is governed by Public Trust Dissemination Policy 4.0.</span><br/><span class="pdt-footer">This site uses cookies to tailor your experience. No personal data is tracked or shared. See our <a rel="privacy-policy" href="/privacy-policy" class="footer__link">Privacy Policy</a> for details.</span><span class="real-footer" xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/">The <a property="dct:title" rel="cc:attributionURL" href="#">Public Data Trust</a> and all related content of this website is licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC BY-NC-SA 4.0</a> by <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://avinadal.net" target="_blank">Avinadal LLC</a> </span>`,
+      copyright: `<span class="pdt-footer">Information contained in this archive is property of the Hadieia Galactic Federation and PDT Foundation. Access is governed by Public Trust Dissemination Policy 4.0.</span><br/><span class="pdt-footer">This site uses cookies to tailor your experience. No personal data is tracked or shared. See our <a rel="privacy-policy" href="/privacy-policy" class="footer__link">Privacy Policy</a> for details.</span><span class="real-footer" xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"> <a property="dct:title" rel="cc:attributionURL" href="#">Public Data Trust</a> © 2025-${new Date().getFullYear()} by <a href="https://avinadal.net">Avinadal LLC</a> is licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC BY-NC-SA 4.0</a> by <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://avinadal.net" target="_blank">Avinadal LLC</a> </span>`,
     },
     prism: {
       theme: prismThemes.github,
