@@ -1,9 +1,0 @@
-culhis:
-  name: Culture & History
-  description: The Culture & History Department (CulHis) is responsible for the specialized curation and contextualization of all historical records and cultural information within the PDT archive. This includes verifying the historical accuracy of events and ensuring cultural narratives are presented in a manner that is both respectful and engaging for the public. CulHis also provides critical contextual support to other PDT departments, supplying the historical and societal background necessary to ensure all published content is cohesive and deeply rooted in the Federation's rich heritage.
-  page: true
-
-genres:
-  name: General Research Department
-  description: The General Research Department (GenRes) is responsible for leading the curation and management of all content on the PDT archive. This includes ensuring that all information is accurate, relevant, and presented in a way that is accessible to the public. GenRes is also tasked with broad oversight over other departments within the PDT Foundation, ensuring that all content aligns with the foundation's mission and values.
-  page: true

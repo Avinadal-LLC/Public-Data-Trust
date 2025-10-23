@@ -1,0 +1,10 @@
+{
+  "position": 2,  
+  "label": "Astronomy & Astrophysics",  
+  "link": {
+    "type": "generated-index",
+    "slug": "astro",
+    "description": "The Astronomy & Astrophysics Department (Astro) is dedicated to the study and exploration of celestial bodies, cosmic phenomena, and the fundamental laws governing the universe. Astro conducts research on stars, planets, galaxies, black holes, dark matter, and other astronomical entities, utilizing advanced technologies such as telescopes, space probes, and satellites. The department also focuses on astrophysical theories and models to better understand the origins and evolution of the cosmos.",
+    "keywords": ["astronomy", "astrophysics", "space", "cosmology"]
+  }
+}

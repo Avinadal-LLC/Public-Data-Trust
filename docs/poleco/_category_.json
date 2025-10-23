@@ -1,0 +1,10 @@
+{
+  "position": 6,
+  "label": "Politics & Economics",
+  "link": {
+    "type": "generated-index",
+    "slug": "poleco",
+    "description": "The Politics & Economics Department (PolEco) focuses on the study and analysis of political systems, economic theories, and their impact on societies across the galaxy. PolEco examines governance structures, policy-making processes, international relations, trade dynamics, and economic development. The department aims to provide insights into how political and economic factors influence the stability, growth, and well-being of civilizations, utilizing data-driven research and interdisciplinary approaches.",
+    "keywords": ["politics", "economics", "government", "policy"]
+  }
+}

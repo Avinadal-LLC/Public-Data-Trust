@@ -1,0 +1,10 @@
+{
+  "position": 3,
+  "label": "Culture & History",  
+  "link": {
+    "type": "generated-index",
+    "slug": "culhis",
+    "description": "The Culture & History Department (CulHis) is responsible for the specialized curation and contextualization of all historical records and cultural information within the PDT archive. This includes verifying the historical accuracy of events and ensuring cultural narratives are presented in a manner that is both respectful and engaging for the public. CulHis also provides critical contextual support to other PDT departments, supplying the historical and societal background necessary to ensure all published content is cohesive and deeply rooted in the Federation's rich heritage.",
+    "keywords": ["culture", "history", "anthropology", "sociology"]
+  }
+}

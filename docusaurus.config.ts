@@ -36,12 +36,13 @@ const config: Config = {
     [
       'classic',
       {
-        docs: {
+        docs: {                              
+          routeBasePath: 'database',          
           sidebarPath: './sidebarDocs.ts',
           editUrl: undefined,
         },
-        blog: {
-          showReadingTime: true,
+        blog: {          
+          showReadingTime: false,          
           feedOptions: {
             type: ['rss', 'atom'],
             xslt: true,
@@ -50,6 +51,8 @@ const config: Config = {
           onInlineTags: 'warn',
           onInlineAuthors: 'warn',
           onUntruncatedBlogPosts: 'warn',
+          blogSidebarCount: 'ALL',
+          blogSidebarTitle: 'Department Notes',
         },
         theme: {
           customCss: './src/css/custom.css',
@@ -58,17 +61,7 @@ const config: Config = {
     ],
   ],
 
-  plugins: [
-    [
-      '@docusaurus/plugin-content-docs',
-      {
-        id: 'reports', // unique id for this docs instance
-        path: 'reports',
-        routeBasePath: 'reports', // URL route
-        sidebarPath: require.resolve('./sidebarReports.ts'),
-      },
-    ],
-  ],
+  plugins: [],
 
   themeConfig: {
     colorMode: {
@@ -90,9 +83,7 @@ const config: Config = {
           position: 'left',
           label: 'Database',
         },
-        {to: '/reports/intro', label: 'Reports', position: 'left'},           
         {to: '/contact', label: 'Contact', position: 'left'},           
-        {to: '/blog', label: 'News', position: 'left'},           
       ],
     },
     footer: {

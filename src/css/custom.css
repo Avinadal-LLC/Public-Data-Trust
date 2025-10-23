@@ -38,6 +38,10 @@
   color: #fff;
 }
 
+.card {
+  margin: .5em 0;
+}
+
 .docs-wrapper .main-wrapper .container {
   max-width: 2000px !important;
 }

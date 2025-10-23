@@ -1,0 +1,10 @@
+{
+  "position": 4,
+  "label": "Engineering & Technology",
+  "link": {
+    "type": "generated-index",
+    "slug": "engtech",
+    "description": "Research and data related to engineering and technology.",
+    "keywords": ["engineering", "technology", "innovation", "design"]
+  }
+}

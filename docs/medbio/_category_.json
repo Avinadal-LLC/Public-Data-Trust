@@ -1,0 +1,10 @@
+{
+  "position": 5,
+  "label": "Medicine & Biology",
+  "link": {
+    "type": "generated-index",
+    "slug": "medbio",
+    "description": "Research and data related to medicine and biology.",
+    "keywords": ["medicine", "biology", "health", "life sciences"]
+  }
+}
