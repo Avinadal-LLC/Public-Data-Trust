@@ -41,19 +41,6 @@ const config: Config = {
           sidebarPath: './sidebarDocs.ts',
           editUrl: undefined,
         },
-        blog: {          
-          showReadingTime: false,          
-          feedOptions: {
-            type: ['rss', 'atom'],
-            xslt: true,
-          },
-          editUrl:undefined,
-          onInlineTags: 'warn',
-          onInlineAuthors: 'warn',
-          onUntruncatedBlogPosts: 'warn',
-          blogSidebarCount: 'ALL',
-          blogSidebarTitle: 'Department Notes',
-        },
         theme: {
           customCss: './src/css/custom.css',
         },
